@@ -8,7 +8,7 @@ const Bio = () => {
                 and exploring the realm of Pygame in 2018. </p>
             <p>I love creating new things, solving puzzles, and sharing knowledge. This website is my space to share whatever things I come up with. Welcome!</p>
         </div>
-    </div>
+    </div>  
   )
 }
 
