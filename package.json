@@ -2,7 +2,7 @@
   "name": "bmachado18.github.io",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://bmachado18.github.io/react-gh-pages",
+  "homepage": "https://bmachado18.github.io",
   "type": "module",
   "scripts": {
     "deploy": "gh-pages -d build",
@@ -10,7 +10,8 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "clean": "rm -rf dist"
   },
   "dependencies": {
     "postcss-import": "^16.1.0",
