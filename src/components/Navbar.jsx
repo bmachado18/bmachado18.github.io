@@ -16,7 +16,7 @@ const Navbar = () => {
                     >
                       <NavLink className="flex flex-shrink-0 items-center mr-4" href="/index.html">
                         <img
-                          className="h-10 w-auto"
+                          className="h-10 w-auto rounded-full"
                           src={logo}
                           alt="Brent Logo"
                         />
