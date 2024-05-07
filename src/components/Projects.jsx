@@ -2,7 +2,7 @@ const Projects = () => {
   const projects = [
     {
       title: "Returned Mail OCR",
-      desc: "Simplifies tedious data entry with optical character recognition and Python",
+      desc: "Simplifies tedious data entry with computer vision, optical character recognition, and Python",
       link: "https://github.com/bmachado18/Returned-Mail-OCR-Project"
     },
     {
@@ -11,8 +11,8 @@ const Projects = () => {
       link: "https://github.com/bmachado18/private-peak-renewables"
     },
     {
-      title: "react-jobs",
-      desc: "A mock job board for business to post jobs and front-end devs to find jobs built in React",
+      title: "React Jobs",
+      desc: "A mock job board for business to post jobs and front-end devs to find jobs built with React",
       link: "https://github.com/bmachado18/react-jobs"
     }
   ]
@@ -26,7 +26,7 @@ const Projects = () => {
             Projects
           </h2>
           <p className="pb-5">
-            Here are some of my projects built with various technologies
+            Here are some of my favourite projects!
           </p>
         </div>
       </div>

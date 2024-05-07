@@ -5,13 +5,13 @@ const Bio = () => {
     <section className="bg-primary px-5 text-white py-32">
         <div className="container mx-auto grid md:grid-cols-2 items-center justify-center md:justify-between">
             <div className="pb-5 md:pb-0">
-                <h1 className="text-4xl lg:text-6xl">Hello World!</h1>
-                <p className="py-5">I'm a Software Engineering undergrad that started post-secondary education in 2018. After pursuing a Bachelor of Sciences for Chemistry up until 2020, I decided
-                    to chase a deeper inclination to technology and design by attending Software Engineering at UVic. This exciting transition interested me as early as 2016 when I was creating blogposts with Wordpress,
-                    and exploring the realm of Pygame in 2018. </p>
-                <p className="py-5">I love creating new things, solving puzzles, and sharing knowledge. This website is my space to share whatever things I come up with. Welcome!</p>
+                <h1 className="text-4xl lg:text-6xl font-bold mb-5 border-b-[5px] w-[400px] border-red-900 pb-2">Hello World!</h1>
+                <p className="py-5">I'm a Software Engineering student starting formally in 2020. I began dabbling into technology in 2016, tinkering with HTML, CSS, and JS in Wordpress, as well as game development with Python and Pygame.
+                    I've been in the academic space since 2018 pursuing a Bachelor of Science until diverting to a deeper passion software in 2020. Since then, I've been programming, collaborating, and learning extensively at the University of Victoria,
+                     expecting to graduate for April 2025!</p>
+                <p className="py-5">I love creating learning new things and sharing knowledge. This website is my space to share whatever things I come up with. Welcome!</p>
             </div>
-            <div className="hero-img">
+            <div className="hero-img flex justify-center">
                 <img
                     src={HeroImg}
                     alt="picture of me"
