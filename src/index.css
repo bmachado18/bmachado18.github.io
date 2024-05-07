@@ -1,3 +1,22 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* color */
+@layer utilties {
+    .bg-primary {
+        background: #0F172A;
+    }
+
+    .bg-secondary {
+        background: #1E293B;
+    }
+
+    .bg-accent {
+        background: #7477FF;
+    }
+
+    .text-accent {
+        color: #7477FF;
+    } 
+}
