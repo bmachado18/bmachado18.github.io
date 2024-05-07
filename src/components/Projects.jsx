@@ -35,7 +35,7 @@ const Projects = () => {
             return (
               <div className="relative" key={i}>
                 <div className="project-card bg-secondary rounded-lg shadow-lg p-5 relative hover:bg-blue-800 hover:shadow-xl transition duration-300">
-                  <h1 className="text-2xl font-bold mb-5 border-b-[2px] w-[180px] border-red-900 pb-2">
+                  <h1 className="text-2xl font-bold mb-5 border-b-[2px] w-[300px] border-red-900 pb-2">
                     {project.title}
                   </h1>
                   <p className="py-5 text-center font-bold px-2 text-white">
