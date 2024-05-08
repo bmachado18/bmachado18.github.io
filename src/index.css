@@ -19,4 +19,10 @@
     .text-accent {
         color: #7477FF;
     } 
+
+}
+
+/* Add this in your global CSS file */
+html {
+    @apply bg-gray-900; /* Change the color as needed */
 }
