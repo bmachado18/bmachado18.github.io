@@ -8,7 +8,7 @@ const Projects = () => {
     {
       title: "Defect Detection Study",
       desc: "A proof of concept to automate lumber defect detection, leveraging artifical intelligence, computer vision, and Python",
-      link: "https://github.com/bmachado18/private-peak-renewables"
+      link: "https://github.com/bmachado18/peak-renewables-archived"
     },
     {
       title: "React Jobs",
