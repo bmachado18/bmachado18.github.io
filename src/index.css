@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 /* color */
-@layer utilties {
+@layer utilities {
     .bg-primary {
         background: #0F172A;
     }

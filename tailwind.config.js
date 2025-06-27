@@ -7,7 +7,7 @@ export default {
   ],
   theme: {
     extend: {
-      fondFamily:{
+      fontFamily:{
         sans: ['Roboto', 'sans-serif']
       }
     },

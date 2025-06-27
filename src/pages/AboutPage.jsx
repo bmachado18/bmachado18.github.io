@@ -8,7 +8,7 @@ const AboutPage = () => {
           Thanks for stopping by!
         </h2>
         <p className="py-5">
-            I haven't got to this yet.. oops!
+            I haven&apos;t got to this yet.. oops!
         </p>
         <p className="py-5">
             I am currently looking for a 4 or 12 month coop as a Software Developer. If you

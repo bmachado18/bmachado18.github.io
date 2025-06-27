@@ -1,5 +1,3 @@
-import React from 'react';
-
 function SocialButtons() {
   return (
     <div className="flex justify-center gap-4">
