@@ -10,7 +10,7 @@ const MainLayout = () => {
       <Sidebar />
       <div className="flex flex-col min-h-screen md:ml-60">
         <Header />
-        <main className="flex-1 bg-gray-100 p-4">
+        <main className="flex-1 bg-white p-4">
           <Outlet />
         </main>
         <Footer />

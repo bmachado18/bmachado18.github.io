@@ -1,3 +1,6 @@
+@import "@fontsource/inter/400.css";
+@import "@fontsource/inter/700.css";
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -5,24 +8,24 @@
 /* color */
 @layer utilities {
     .bg-primary {
-        background: #0F172A;
+        background: #d82c20;
     }
 
     .bg-secondary {
-        background: #1E293B;
+        background: #f5f5f5;
     }
 
     .bg-accent {
-        background: #7477FF;
+        background: #ba1e14;
     }
 
     .text-accent {
-        color: #7477FF;
-    } 
+        color: #d82c20;
+    }
 
 }
 
 /* Add this in your global CSS file */
 html {
-    @apply bg-gray-900; /* Change the color as needed */
+    @apply bg-white text-gray-900 font-sans;
 }
