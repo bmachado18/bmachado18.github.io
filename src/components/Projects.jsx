@@ -19,7 +19,7 @@ const Projects = () => {
 
   
   return (
-    <section className="bg-primary text-white pt-5 pb-32" id="projects">
+    <section className="bg-white text-gray-900 pt-5 pb-32" id="projects">
       <div className="container mx-auto items-center">
         <div className="about-info mb-5">
           <h2 className="text-4xl font-bold mb-5 border-b-[5px] w-[180px] border-red-900 pb-2">
@@ -34,18 +34,18 @@ const Projects = () => {
         {projects.map((project, i) => {
             return (
               <div className="relative" key={i}>
-                <div className="project-card bg-secondary rounded-lg shadow-lg p-5 relative hover:bg-blue-800 hover:shadow-xl transition duration-300">
+                <div className="project-card bg-white rounded-lg shadow-lg p-5 relative hover:bg-secondary hover:shadow-xl transition duration-300">
                   <h1 className="text-2xl font-bold mb-5 border-b-[2px] w-[300px] border-red-900 pb-2">
                     {project.title}
                   </h1>
-                  <p className="py-5 text-center font-bold px-2 text-white">
+                  <p className="py-5 text-center font-bold px-2">
                     {project.desc}
                   </p>
 
                   <div className="mx-auto">
                     <a
                       href={project.link}
-                      className="px-5 py-2 bg-red-900 hover:bg-blue-800 font-bold"
+                      className="px-5 py-2 bg-white text-gray-900 border border-primary hover:bg-primary hover:text-white font-bold"
                     >
                       Code
                     </a>
@@ -61,3 +61,4 @@ const Projects = () => {
 }
 
 export default Projects
+
