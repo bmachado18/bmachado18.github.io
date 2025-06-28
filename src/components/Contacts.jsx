@@ -7,8 +7,7 @@ const Contacts = () => {
           Contact Me
         </h2>
         <p className="py-5">
-            Thanks for stopping by. I am currently looking for a 4 or 12 month coop as a Software Developer. If you
-            want to discuss coops or my projects feel free to email me or reach me at my socials anytime!
+            Thanks for stopping by. I’m now looking for full-time opportunities as a Software Developer. If you’re interested in collaborating or want to chat about my work, feel free to reach out via email or socials!
         </p>
       
       </div>

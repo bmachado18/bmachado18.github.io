@@ -7,11 +7,13 @@ const AboutPage = () => {
           Thanks for stopping by!
         </h2>
         <p className="py-5">
-            I haven&apos;t got to this yet.. oops!
+            I have not got to this yet.
         </p>
         <p className="py-5">
-            I am currently looking for a 4 or 12 month coop as a Software Developer. If you
-            want to discuss coops or my projects feel free to email me or reach me at my socials anytime!
+            I recently graduated with a degree in Software Engineering from the University of Victoria and am currently working as a Graduate Researcher on a 4-month contract until August
+        </p>
+        <p className="py-5">
+            I&apos;m now looking for full-time opportunities as a Software Developer. If you&apos;re interested in collaborating or want to chat about my work, feel free to reach out via email or socials!
         </p>
       
       </div>
