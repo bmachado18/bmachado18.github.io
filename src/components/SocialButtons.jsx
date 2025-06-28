@@ -1,6 +1,6 @@
-function SocialButtons() {
+function SocialButtons({ className = 'justify-center' }) {
   return (
-    <div className="flex justify-center gap-4">
+    <div className={`flex gap-4 ${className}`}>
       <a className="p-2 bg-white text-gray-900 border border-primary rounded hover:bg-primary hover:text-white flex items-center gap-2">
         <i className="fas fa-envelope"></i> brentmachado7@gmail.com
       </a>

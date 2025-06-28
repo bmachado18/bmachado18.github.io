@@ -1,4 +1,3 @@
-import SocialButtons from './SocialButtons'
 
 const Contacts = () => {
   return (
@@ -11,9 +10,6 @@ const Contacts = () => {
             Thanks for stopping by. I am currently looking for a 4 or 12 month coop as a Software Developer. If you
             want to discuss coops or my projects feel free to email me or reach me at my socials anytime!
         </p>
-        <div className="py-10">
-          <SocialButtons />
-        </div>
       
       </div>
     </section>
