@@ -7,8 +7,8 @@ export default {
   ],
   theme: {
     extend: {
-      fondFamily:{
-        sans: ['Roboto', 'sans-serif']
+      fontFamily:{
+        sans: ['Inter', 'sans-serif']
       }
     },
   },
