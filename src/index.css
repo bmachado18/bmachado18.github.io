@@ -23,6 +23,10 @@
         color: #d82c20;
     }
 
+    .border-primary {
+        border-color: #d82c20;
+    }
+
 }
 
 /* Add this in your global CSS file */

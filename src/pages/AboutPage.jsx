@@ -2,8 +2,8 @@ import SocialButtons from '../components/SocialButtons'
 
 const AboutPage = () => {
   return (
-    <section className="bg-primary px-5 pt-5 py-5">
-      <div className=" md-w-[60%] mx-auto text-white">
+    <section className="bg-white px-5 pt-5 py-5">
+      <div className=" md-w-[60%] mx-auto text-gray-900">
         <h2 className="text-4xl font-bold mb-5">
           Thanks for stopping by!
         </h2>

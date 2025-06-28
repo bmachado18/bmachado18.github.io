@@ -2,7 +2,7 @@ import HeroImg from '../assets/images/hero.jpg'
 
 const Bio = () => {
   return (
-    <section className="bg-primary px-5 text-white py-32">
+    <section className="bg-white px-5 text-gray-900 py-32">
         <div className="container mx-auto grid md:grid-cols-2 items-center justify-center md:justify-between">
             <div className="pb-5 md:pb-0">
                 <h1 className="text-4xl lg:text-6xl font-bold mb-5 border-b-[5px] w-[400px] border-red-900 pb-2">Hello World!</h1>
