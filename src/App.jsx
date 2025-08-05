@@ -5,9 +5,10 @@ import Footer from './components/Footer.jsx'
 import Home from './pages/Home.jsx'
 import Resume from './pages/Resume.jsx'
 import About from './pages/About.jsx'
-import Project1 from './pages/Project1.jsx'
-import Project2 from './pages/Project2.jsx'
-import Project3 from './pages/Project3.jsx'
+import Hydromodel from './pages/Hydromodel.jsx'
+import Martletplace from './pages/Martletplace.jsx'
+import Peakrenewables from './pages/Peakrenewables.jsx'
+import MailOCR from './pages/MailOCR.jsx'
 
 export default function App() {
   const [darkMode, setDarkMode] = useState(() => localStorage.getItem('theme') === 'dark')
@@ -30,9 +31,10 @@ export default function App() {
           <Route path="/" element={<Home />} />
           <Route path="/resume" element={<Resume />} />
           <Route path="/about" element={<About />} />
-          <Route path="/project1" element={<Project1 />} />
-          <Route path="/project2" element={<Project2 />} />
-          <Route path="/project3" element={<Project3 />} />
+          <Route path="/project/hydromodel" element={<Hydromodel />} />
+          <Route path="/project/martletplace" element={<Martletplace />} />
+          <Route path="/project/peakrenewables" element={<Peakrenewables />} />
+          <Route path="/project/mail-ocr" element={<MailOCR />} />
         </Routes>
         <Footer />
       </div>

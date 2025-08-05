@@ -7,28 +7,28 @@ export default function Home() {
         year: 2025,
         description: 'A web UI for the Raven hydrology model, designed to simplify scenario creation and visualize how environmental changes. Built with VueJS and FastAPI.',
         image: '/teasers/hydro-teaser.png',
-        //link: '/project1'
+        link: '/project/hydromodel'
       },
       {
         title: 'MartletPlace',
         year: 2024,
         description: 'Recreating FB Marketplace for Students as a capstone project. Built with React and NodeJS in a microservices architecture.',
         image: '/teasers/martletplace-teaser.png',
-        //link: '/project2'
+        link: '/project/martletplace'
       },
       {
         title: 'Peak Renewables',
         year: 2023,
         description: 'A machine vision project aimed at automating quality control in engineered wooden stud fabrication to enhance efficiency and reduce waste. Built with Python.',
         image: '/teasers/peak-teaser.png',
-        //link: '/project3'
+        link: '/project/peakrenewables'
       },
       {
         title: 'Returned Mail OCR',
         year: 2022,
         description: 'Simplifies tedious data entry with computer vision, optical character recognition, and Python.',
         image: '/teasers/ocr-teaser.png',
-        //link: '/project3'
+        link: '/project/mail-ocr'
       }
     ]
 
