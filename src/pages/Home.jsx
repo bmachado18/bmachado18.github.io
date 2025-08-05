@@ -26,7 +26,7 @@ export default function Home() {
     ]
 
   return (
-      <div className="p-4 space-y-8">
+      <div className="px-4 md:px-12 py-4 space-y-8">
         <div className="text-center space-y-4">
           <img
             src="https://via.placeholder.com/600x200"
@@ -38,7 +38,7 @@ export default function Home() {
             ligula sit amet lectus convallis aliquet vitae vitae dui.
           </p>
         </div>
-        <div>
+        <div className="max-w-5xl mx-auto px-4">
           <h2 className="text-xl font-semibold mb-4">Featured Projects</h2>
           <ul className="space-y-4">
             {projects.map((p) => (
