@@ -1,8 +1,9 @@
-# React + Vite
+# Minimal Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This repository contains a very simple personal website with three pages:
 
-Currently, two official plugins are available:
+- **Home**: placeholder image, short blurb and a list of featured projects.
+- **About**: space to write more about yourself.
+- **Resume**: classic resume layout.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The site supports a light and dark theme. Use the "Toggle Theme" button in the navigation bar to switch modes.
