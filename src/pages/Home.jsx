@@ -3,44 +3,53 @@ import { Link } from 'react-router-dom'
 export default function Home() {
     const projects = [
       {
-        title: 'Project One',
+        title: 'Hydromodel App',
+        year: 2025,
+        description: 'A web UI for the Raven hydrology model, designed to simplify scenario creation and visualize how environmental changes. Built with VueJS and FastAPI.',
+        image: '/teasers/hydro-teaser.png',
+        //link: '/project1'
+      },
+      {
+        title: 'MartletPlace',
         year: 2024,
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-        image: 'https://via.placeholder.com/300x200',
-        link: '/project1'
+        description: 'Recreating FB Marketplace for Students as a capstone project. Built with React and NodeJS in a microservices architecture.',
+        image: '/teasers/martletplace-teaser.png',
+        //link: '/project2'
       },
       {
-        title: 'Project Two',
+        title: 'Peak Renewables',
         year: 2023,
-        description: 'Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-        image: 'https://via.placeholder.com/300x200',
-        link: '/project2'
+        description: 'A machine vision project aimed at automating quality control in engineered wooden stud fabrication to enhance efficiency and reduce waste. Built with Python.',
+        image: '/teasers/peak-teaser.png',
+        //link: '/project3'
       },
       {
-        title: 'Project Three',
+        title: 'Returned Mail OCR',
         year: 2022,
-        description: 'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.',
-        image: 'https://via.placeholder.com/300x200',
-        link: '/project3'
+        description: 'Simplifies tedious data entry with computer vision, optical character recognition, and Python.',
+        image: '/teasers/ocr-teaser.png',
+        //link: '/project3'
       }
     ]
 
   return (
-      <div className="px-4 md:px-12 py-4 space-y-8">
-        <div className="text-center space-y-4">
+      <div className="px-4 md:px-12 py-16 space-y-16">
+        <div className="text-center space-y-12">
           <img
-            src="https://via.placeholder.com/600x200"
+            src="/Logo2.svg"
             alt="placeholder"
             className="mx-auto"
           />
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vitae
-            ligula sit amet lectus convallis aliquet vitae vitae dui.
+            I’m Brent Machado, a backend-focused software engineer passionate about building efficient, data-driven systems.
+          </p>
+          <p>
+            Dive into my portfolio to explore my project’s impact on the world!
           </p>
         </div>
         <div className="max-w-5xl mx-auto px-4">
-          <h2 className="text-xl font-semibold mb-4">Featured Projects</h2>
-          <ul className="space-y-4">
+          <h2 className="text-xl font-semibold mb-4 py-8">Featured Projects</h2>
+          <ul className="space-y-6">
             {projects.map((p) => (
               <li key={p.title}>
                 <Link
