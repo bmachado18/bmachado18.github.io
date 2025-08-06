@@ -1,9 +1,9 @@
 export default function About() {
   const gallery = [
-    'https://via.placeholder.com/400x400?text=Photo+1',
-    'https://via.placeholder.com/400x400?text=Photo+2',
-    'https://via.placeholder.com/400x400?text=Photo+3',
-    'https://via.placeholder.com/400x400?text=Photo+4',
+    '/gallery/gallery-1.png',
+    '/gallery/gallery-2.png',
+    '/gallery/gallery-3.png',
+    '/gallery/gallery-4.png',
   ]
 
   return (
@@ -23,7 +23,7 @@ export default function About() {
               key={idx}
               src={src}
               alt={`Gallery image ${idx + 1}`}
-              className="object-cover w-full h-48 rounded-lg"
+              className="object-cover w-full h-full rounded-lg"
             />
           ))}
         </div>
